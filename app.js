@@ -37,7 +37,7 @@ server.on('listening', function () {
     console.log('listening on ws port:' + server.ws.address().port)
 })
 
-server.listen(80, '', '')
+server.listen(8080, '', '')
 
 // listen for individual tracker messages from peers:
 
